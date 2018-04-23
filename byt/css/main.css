@@ -1,0 +1,235 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+  background: #eee;
+}
+.container{
+  display: block;
+  max-width: 1080px;
+  margin:0 auto;
+}
+
+a {
+  text-decoration: none;
+  margin: 10px;
+  display: inline-block;
+  color: #999;
+}
+
+a:hover{
+  color: #666;
+}
+
+.nav{
+  background: #ddd;
+}
+
+
+
+
+.container:before,
+.container:after,
+.clearf:before,
+.clearf:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+
+.header{
+  margin-top: 20px;
+}
+
+.header .logo
+{
+  background-image: url(../img/logo.png);
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position: center center;
+  height: 60px;
+}
+
+.search-bar{
+  padding: 20px 10px 0px;
+}
+
+.header .search-bar input{
+  outline: 0;
+  display: block;
+  border:1px solid red;
+  height: 35px;
+}
+
+
+
+.header .search-bar button{
+  background: #dd182b;
+  color: #fff;
+  border: 1px solid #dd182b;
+  height: 35px;
+}
+
+.header .search-bar button:hover{
+  background: #bb182b
+}
+
+.header .cart{
+  margin-top: 10px;
+  overflow: hidden;
+  margin-top:20px;
+}
+
+.header .cart .trigger{
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px 25px;
+  border: 1px solid #ddd;
+  background: #fff;
+  color: red;
+}
+.main{
+  margin-top: 20px;
+}
+.main .item{
+  background: #6e6568;
+}
+
+.main .item .row{
+  color:#fff;
+  padding:17px 20px;
+}
+.main .bigimg img{
+  display: block;
+  max-width: 100%;
+}
+.main .sub-promote
+{
+  padding:10px;
+  background: #fff;
+}
+.main .sub-promote .pro-to{
+  background: #eee;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right:12px;
+}
+
+.main .sub-promote .login{
+  margin-top: 10px;
+}
+
+.main .sub-promote .login button{
+  background: #fff;
+  color: #dd182b;
+  border: 2px solid #dd182b;
+  width: 75px;
+}
+
+.main .sub-promote .announce{
+  margin-top: 10px;
+  font-size: 15px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.sbuy{
+  margin-top: 30px;
+}
+
+.tag:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 22px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: #dd182b;
+}
+.tag{
+  font-size: 25px;
+  color: #555;
+}
+.buff .lanmu{
+  height: 300px;
+  margin: 5px;
+  background: #e5e7dd;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  /*border: 1px solid #ccc;*/
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+.sbuy .buff .tag .text{
+  font-size: 25px;
+}
+
+.footer{
+  text-align: center;
+  height: 150px;
+  background: #eee;
+  margin-top: 30px;
+  color: #999;
+}
+.suini{
+  padding-top: 30px;
+}
+
+.message{
+  font-size: 14px;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9
+{
+  float:left;
+  min-height: 1px;
+  display: block;
+  position: relative;
+}
+.col-1{
+  width: 10%;
+}
+.col-2{
+  width: 20%;
+}
+.col-3{
+  width: 30%;
+}
+.col-4{
+  width: 40%;
+}
+.col-5{
+  width: 50%;
+}
+.col-6{
+  width: 60%;
+}
+.col-7{
+  width: 70%;
+}
+.col-8{
+  width: 80%;
+}
+.col-9{
+  width: 90%;
+}
